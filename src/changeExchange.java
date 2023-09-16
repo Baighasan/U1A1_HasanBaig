@@ -1,9 +1,10 @@
 import javax.swing.*;
+import javax.swing.text.View;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class changeExchange extends JFrame {
-    private JPanel changeExchangePanel;
+    private JPanel currencyExchangePanel;
     private JLabel lblHeader;
     private JPanel pnlCenterMain;
     private JLabel lblCurrencyInput;
@@ -27,7 +28,7 @@ public class changeExchange extends JFrame {
     private JLabel lblTooniesOutput;
 
     public changeExchange (){
-        setContentPane(changeExchangePanel);
+        setContentPane(currencyExchangePanel);
         setTitle("U1A1 Hasan Baig");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(600, 400);
